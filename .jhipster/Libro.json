@@ -1,0 +1,29 @@
+{
+  "applications": "*",
+  "changelogDate": "20230824164319",
+  "dto": "mapstruct",
+  "entityTableName": "libro",
+  "fields": [
+    {
+      "fieldName": "titulo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precio",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "subtitulo",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Libro",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
